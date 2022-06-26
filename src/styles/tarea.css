@@ -1,0 +1,40 @@
+.tarea-contenedor {
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 73);
+    color: white;
+}
+
+.tarea-completada {
+    background-color: rgb(0, 0, 0);
+    text-decoration: line-through;
+}
+
+.tarea-texto {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anymore;
+}
+
+.tarea-icono {
+
+    color: rgb(153, 153, 153);
+    width: 25px;
+    height: 25px;
+    ;
+}
+
+.tarea-icono:hover {
+    color: rgb(255, 255, 255);
+}

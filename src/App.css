@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+
+  width: 100%;
+  background-color: white;
+  padding: 20px 0px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px gray;
+
+}
+
+.contenedor-lista-tarea {
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px gray;
+  padding: 30px;
+  min-height: 400px;
+  width: 30%;
+  min-width: 400px;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.contenedor-lista-tarea h1 {
+  font-weight: 1;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  width: 90%;
+  text-align: center;
+}
